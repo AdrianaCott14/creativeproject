@@ -1,6 +1,4 @@
-h1 {
-    color: white;
-}
+
 
 .people-img {
     max-width: 10%;
@@ -12,8 +10,8 @@ h1 {
 }
 
 div {
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-right: 10px;
     margin-left: 10px;
 }
@@ -21,6 +19,7 @@ div {
 body {
     font-family: "Lato", sans-serif;
 }
+
 body,
 html {
     height: 100%;
@@ -30,7 +29,7 @@ html {
 
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("CottleAdriana.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("CottleAdriana.jpg");
 
     /* Set a specific height */
     height: 100%;
@@ -50,6 +49,37 @@ html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #D4CFD2;
 }
 
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #353721;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #D4CFD2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #D4CFD2;
+    color: #13100A;
+}
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #B54E6F;
+    color: #D4CFD2;
+}
