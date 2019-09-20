@@ -33,6 +33,7 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #D4CFD2;
+    font-size: 40px;
 }
 
 /* Add a black background color to the top navigation */
@@ -181,7 +182,7 @@ input[type=submit]:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 300px;
+    margin-bottom: 350px;
     margin-top: 150px;
     align-content:center;
 }
