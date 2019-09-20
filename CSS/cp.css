@@ -107,9 +107,7 @@ html {
 }
 
 footer {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 1245px;
+    text-align: center;
     display: block;
     color: white;
 }
